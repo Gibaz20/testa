@@ -15,7 +15,7 @@
     justify-content: space-between;
     background-color: #f2f2f2;
     padding: 5px 400px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #5f5f5f;
    
 }
 
@@ -27,6 +27,7 @@
     font-weight: bold;
     color: #333;
     border-right: 2px  solid #33333325;
+       
 }
 
 
@@ -51,10 +52,9 @@
 
 .links a {
     border-left: 2px solid #33333325;
-    display: inline-block;
     text-decoration: none;
     color: #333333;
-    padding: 1px 5px;
+    padding: 10px 5px;
 
 }
 
@@ -106,15 +106,13 @@
 
 .menuAcessi{
     font-size: 10px;
-    
-    
-    
 
 }
 .menuAcessi ul{
     list-style-type: none;
     display: flex;
     gap: 6px;
+    
 }
 
 
@@ -159,7 +157,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     background-color: rgb(0, 61, 0);
     padding-left: 100px;
     
@@ -168,17 +165,101 @@
 .mini-header-baixo ul {
     display: flex;
     list-style-type: none;
+    
 }
 
 .mini-header-baixo li {
     list-style: none;
-    padding: 5px 10px;
+    padding: 5px 3px;
     font-size: 12px;
     color: #f2f2f2;
+    
+    
 }
 
 .mini-header-baixo a {
     text-decoration: none;
     color: #f2f2f2;
     font-size: 14px;
+    border-right: #7c7c7c solid 1px;
+    padding: 0px 5px;
+    
+}
+.vcTaAq {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 400px;
+    padding-bottom: 30px;
+}
+
+.vcTaAq a{
+    color: #007b8b;
+}
+/* ---------------------------------- */
+#espacos {
+    margin-left: 400px;
+    padding: 0px;
+    width: 180px;
+}
+
+#espacos ul{
+    list-style-type: none;
+    border-bottom: rgb(150, 150, 150) solid 1px;
+}
+#espacos li{
+
+padding-bottom: 20px;
+
+}
+
+#espacos a{
+    
+    text-decoration: none;
+    font-size: 14   px;
+    color: rgb(0, 80, 0);
+    font-weight: bold;
+    
+}
+/* ---------------------------------- */
+#opcoesNav {
+    margin-left: 400px;
+    padding: 0px;
+    width: 180px;
+}
+#opcoesNav ul{
+    list-style-type: none;
+    
+}
+#opcoesNav li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: rgb(150, 150, 150) solid 1px;
+}
+#opcoesNav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(0, 80, 0);
+    font-weight: bold;
+
+}
+/* ------------------------- */
+
+#caixasOP {
+    margin-left: 400px;
+    width: 180px;
+    gap: 20px;
+}
+#caixasOP ul{
+    gap: 20px;
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f1f4; 
+  padding: 20px 10px;
+  font-weight: bold;
+  color: #014d1f; 
+  border-top: 3px solid #014d1f;
+  cursor: pointer;
 }
