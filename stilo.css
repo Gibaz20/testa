@@ -247,9 +247,11 @@ padding-bottom: 20px;
 #caixasOP {
     margin-left: 400px;
     width: 180px;
-    gap: 20px;
+    
 }
 #caixasOP ul{
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 .menu-item {
@@ -262,4 +264,36 @@ padding-bottom: 20px;
   color: #014d1f; 
   border-top: 3px solid #014d1f;
   cursor: pointer;
+  
+}
+.main{
+    display: flex;
+    
+}
+
+.ladoDireito{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.banners{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px ;
+    padding-bottom: 40px;
+}
+.banners img{
+    width: 700px;
+}
+
+.noticias{
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-top: #004d1a solid 3px;
+    max-width: 700px;
+}
+.noticias span{
+    margin: 0px;
+    font-weight: normal;
+    color: #004d1a;
 }
